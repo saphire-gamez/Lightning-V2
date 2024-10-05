@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-web-service
+    name: Lightning-V2
     env: node
     plan: free
     buildCommand: "npm install"
