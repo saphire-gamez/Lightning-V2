@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: my-web-service
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    autoDeploy: true
+    region: oregon  # Change to your preferred region
+    envVars:
+      - key: NODE_ENV
+        value: production
